@@ -1,0 +1,81 @@
+#button{
+    background-color: rgba(47, 139, 167, 0.778);
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    height: 250%;
+    color: white;
+    font-size: 120%;
+}
+#button:hover{
+    margin-left: 10px;
+    transition: 0.5ms;
+    transition-property: initial;
+    background-color: rgba(47, 139, 167, 0.99);
+}
+#button2{
+    background-color: rgba(173, 18, 18, 0.677);
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    height: 250%;
+    color: white;
+    font-size: 120%;
+}
+#button2:hover{
+    margin-left: 10px;
+    transition: 0.5ms;
+    transition-property: initial;
+    background-color: rgba(173, 18, 18, 0.879);
+}
+#button3{
+    background-color: rgba(219, 154, 56, 0.778);
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    height: 250%;
+    color: white;
+    font-size: 120%;
+}
+#button3:hover{
+    margin-left: 10px;
+    transition: 0.5ms;
+    transition-property: initial;
+    background-color: rgba(219, 154, 56, 0.985);
+    
+}
+#container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media(0px <= width <= 768px){
+    #button{
+        background-color: rgba(47, 139, 167, 0.778);
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+        height: 200%;
+        color: white;
+        font-size: 90%;
+    }
+    #button2{
+        background-color: rgba(173, 18, 18, 0.677);
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+        height: 200%;
+        color: white;
+        font-size: 90%;
+    }
+    #button3{
+        background-color: rgba(219, 154, 56, 0.778);
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+        height: 200%;
+        color: white;
+        font-size: 90%;
+    }
+    
+}

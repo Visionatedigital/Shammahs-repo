@@ -45,7 +45,7 @@
 }
 
 
-@media(0px <= width <= 768px){
+@media(0px <= width <= 767px){
     #Link3{
         text-decoration: none;
         font-size: large;
@@ -122,7 +122,7 @@
         margin-right: -0.9%;
     }
 }
-@media(1280px <= width <= 2000px){
+@media(min-width: 1280px){
     .Brand{
         text-decoration: none;
         color: white;

@@ -1,0 +1,86 @@
+.main{
+    background-color: rgba(197, 195, 195, 0.91);
+    height: 100dvh;
+    text-align: center;
+}
+#main2{
+   
+    color: white;
+    font-size: 220%;
+    font-weight: 700;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.image{
+    padding-top: 40%;
+    width: 100%;
+  
+}
+.image2{
+    width: 100%;
+    padding-top: 6%;
+   
+}
+#body{
+    margin-top: 16%;
+}
+.learning{
+ color:   rgba(173, 18, 18, 0.677)
+}
+.future{
+    color:rgba(219, 154, 56, 0.778)
+}
+.life{
+ color:rgba(47, 139, 167, 0.778)
+}
+
+@media(0px <= width < 768px){
+    #main2{
+   
+        color: white;
+        font-size: 200%;
+        font-weight: 700;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+    .image{
+        padding-top: 0%;
+        width: 30%;
+      
+    }
+    .image2{
+        /* width: 50%;
+        padding-top: 0%; */
+       display:none
+    }
+    #body{
+        margin-top: 1%;
+        margin-bottom: 10%;
+    }
+    
+}
+@media(768px <= width <= 992px){
+    #main2{
+   
+        color: white;
+        font-size: 150%;
+        font-weight: 700;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+}
+@media(992px <= width <= 1280px){
+    #main2{
+   
+        color: white;
+        font-size: 190%;
+        font-weight: 700;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+}
+@media( min-width: 1280px){}
