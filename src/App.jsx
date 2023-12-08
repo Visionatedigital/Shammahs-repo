@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage/LandingPage";
+import Buttons from "./components/Buttons/Buttons";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
           <Route path="/" element={<LandingPage />}/>
         </Routes>
       </Router>
+
+      
     </>
   );
 }

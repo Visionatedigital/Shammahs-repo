@@ -3,7 +3,7 @@
     width: 70%;
     border-radius: 10px;
     border: none;
-    height: 250%;
+    height: 27%;
     color: white;
     font-size: 120%;
 }
@@ -18,7 +18,7 @@
     width: 70%;
     border-radius: 10px;
     border: none;
-    height: 250%;
+    height: 27%;
     color: white;
     font-size: 120%;
 }
@@ -33,7 +33,7 @@
     width: 70%;
     border-radius: 10px;
     border: none;
-    height: 250%;
+    height: 27%;
     color: white;
     font-size: 120%;
 }
@@ -45,18 +45,57 @@
     
 }
 #container{
+    
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 10%;
+  
+    
+}
+#container2{
+    
+    padding-left: 9%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  
+    
+}
+.plan{
+    text-align:initial;
+    padding-left: 9%;
+    color: white;
+    padding-bottom: 3%;
 }
 
-@media(0px <= width <= 768px){
+.ul2{
+    text-align: initial;
+    margin-left: 9%;
+   color: black;
+   padding-bottom: 7%;
+}
+.ul3{
+    text-align: initial;
+    /* margin-left: 20%; */
+    width: 90%;
+    margin-left: 9%;
+    color: black;
+    padding-bottom: 7%;
+}
+.h5{
+    /* text-align: start; */
+    width: 80%;
+    padding-top: 5%;
+    color: rgba(47, 139, 167, 0.778);
+    margin-left: 9%;
+}
+
+@media(0px <= width < 768px){
     #button{
         background-color: rgba(47, 139, 167, 0.778);
         width: 100%;
         border-radius: 10px;
         border: none;
-        height: 200%;
+        height: 12%;
         color: white;
         font-size: 90%;
     }
@@ -65,7 +104,7 @@
         width: 100%;
         border-radius: 10px;
         border: none;
-        height: 200%;
+        height: 12%;
         color: white;
         font-size: 90%;
     }
@@ -74,9 +113,47 @@
         width: 100%;
         border-radius: 10px;
         border: none;
-        height: 200%;
+        height: 12%;
         color: white;
         font-size: 90%;
     }
+    #container{
     
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 12%;
+        
+    }
+    .plan{
+        text-align:initial;
+        padding-left: 5%;
+        color: white;
+        padding-bottom: 3%;
+        font-size: 22px;
+        padding-top: 5%;
+    }
+
+    .ul2{
+        text-align: initial;
+        margin-left: 9%;
+    
+       padding-bottom: 17%;
+    }
+    .ul3{
+        text-align: initial;
+        /* margin-left: 20%; */
+        width: 90%;
+        margin-left: 9%;
+     
+        padding-bottom: 7%;
+    }
+    
+}
+@media(768px <= width < 1200px){
+    .h5{
+        text-align: start;
+        /* padding-left: 5%; */
+        color: rgba(47, 139, 167, 0.778);
+        margin-top: 10%;
+    }
 }
