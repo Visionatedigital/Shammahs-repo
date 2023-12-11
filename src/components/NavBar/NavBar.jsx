@@ -10,6 +10,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../../index.css"
+import { FaSearch } from "react-icons/fa";
 
 function NavBar(props) {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
@@ -47,7 +48,10 @@ function NavBar(props) {
       {["md"].map((expand) => (
         <Navbar key={expand} expand={expand} id={style.Navbar}>
           <Container fluid>
+          
             <Navbar.Brand > <Link className={style.Brand}> <img src="/images/Afrolearn Logo.png" alt="" className={style.logo}/>AfroLearn</Link></Navbar.Brand>
+            <FaSearch className={style.search}/>
+
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}
                onClick={() => setShowOffcanvas(!showOffcanvas)} />
             <Navbar.Offcanvas
@@ -57,6 +61,7 @@ function NavBar(props) {
               show={showOffcanvas}
               onHide={closeOffcanvas}
             >
+              
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   Offcanvas
