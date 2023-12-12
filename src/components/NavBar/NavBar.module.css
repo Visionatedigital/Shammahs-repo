@@ -1,6 +1,8 @@
 #Navbar{
-    background-color: rgba(38, 116, 167, 0.411);
-    
+    background-color: rgba(124, 166, 195, 0.997);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;  
 }
 
 

@@ -2,6 +2,9 @@ import React from "react";
 import NavBar from "../NavBar/NavBar";
 import style from "./LandingPage.module.css";
 import Buttons from "../Buttons/Buttons";
+import { Link } from "react-router-dom";
+import CoursePlans from "../CoursePlans/CoursePlans";
+CoursePlans
 
 function LandingPage(props) {
   return (
@@ -15,7 +18,8 @@ function LandingPage(props) {
             <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12"> <img src="/images/illustration_2-removebg-preview.png" alt=""  className={style.image2}/></div>
           </div>
         </div>
-        <Buttons/>
+        <Buttons student="Student" tutor="Tutor" parent="Parent"/>
+        <CoursePlans/>
       </div>
     </>
   );
