@@ -4,7 +4,9 @@ import style from "./LandingPage.module.css";
 import Buttons from "../Buttons/Buttons";
 import { Link } from "react-router-dom";
 import CoursePlans from "../CoursePlans/CoursePlans";
-CoursePlans
+import Courses from "../Courses/Courses";
+import AboutPage from "../AboutPage/AboutPage";
+
 
 function LandingPage(props) {
   return (
@@ -20,6 +22,8 @@ function LandingPage(props) {
         </div>
         <Buttons student="Student" tutor="Tutor" parent="Parent"/>
         <CoursePlans/>
+        <Courses/>
+        <AboutPage/>
       </div>
     </>
   );

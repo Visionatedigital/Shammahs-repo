@@ -1,0 +1,175 @@
+.courses {
+  text-align: start;
+  margin-left: 8%;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+#container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.ul {
+  list-style-position: inside;
+  padding-left: 0px;
+  text-align: start;
+  padding-left: 26%;
+  padding-top: 5%;
+}
+.ul2 {
+    list-style-position: inside;
+    padding-left: 0px;
+    text-align: start;
+    padding-left: 15%;
+    padding-top: 5%;
+  }
+#math {
+  background-color: rgb(22, 162, 162);
+  width: 80%;
+  margin-left: 13%;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  height: 380px;
+  margin-bottom: 20px;
+}
+
+#socialstudies {
+  background-color: rgb(213, 79, 90);
+  width: 80%;
+  margin-left: 13%;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  height: 380px;
+  margin-bottom: 20px;
+}
+#english{
+  background-color: rgb(233, 192, 8);
+  width: 80%;
+  margin-left: 13%;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  height: 380px;
+  margin-bottom: 20px;
+}
+#science {
+  background-color: rgb(71, 63, 63);
+  width: 80%;
+  margin-left: 13%;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  height: 380px;
+  margin-bottom: 20px;
+}
+
+.li {
+  padding-bottom: 10px;
+}
+.li2 {
+  padding-bottom: 30px;
+}
+.image {
+  margin-top: -40px;
+  margin-left: 20%;
+  transform: translateX(-50%);
+
+  width: 60px;
+}
+
+@media (0px <= width < 345px) {
+    .courses {
+       
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+}
+@media (345px <= width < 768px) {
+    .courses {
+       
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+    
+}
+@media (768px <= width < 992px) {
+  
+    #math {
+        background-color: rgb(22, 162, 162);
+        width: 90%;
+        text-align: center;
+        color: white;
+      }
+    
+      #socialstudies {
+        background-color: rgb(213, 79, 90);
+        width: 90%;
+        text-align: center;
+        color: white;
+      }
+      #english{
+        background-color: rgb(233, 192, 8);
+        width: 90%;
+        text-align: center;
+        color: white;
+      }
+      #science {
+        background-color: rgb(71, 63, 63);
+        width: 90%;
+        text-align: center;
+        color: white;
+      }
+      .image {
+        margin-top: -40px;
+        margin-left: 35%;
+        transform: translateX(-50%);
+      
+        width: 60px;
+      }
+      
+}
+@media (992px <= width <= 1280px) {
+  
+  #math {
+    background-color: rgb(22, 162, 162);
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+
+  #socialstudies {
+    background-color: rgb(213, 79, 90);
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+  #english{
+    background-color: rgb(233, 192, 8);
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+  #science {
+    background-color: rgb(71, 63, 63);
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+  .image {
+    margin-top: -40px;
+    margin-left: 30%;
+    transform: translateX(-50%);
+  
+    width: 60px;
+  }
+  
+ 
+}
+@media (min-width: 1280px) {
+}
