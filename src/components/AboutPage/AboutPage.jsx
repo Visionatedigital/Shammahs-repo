@@ -6,14 +6,14 @@ function AboutPage(props) {
     <>
       <div>
         <h2 className={style.h3}>
-          Why Afro Learn is a necessity to your child
+          Why AfroLearn ?
         </h2>
       </div>
       <div className="container-fluid" id={style.container}>
         <div className="row">
-          <div className="col">
+          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
             <div className={style.body}>
-            <img src="" alt="" />
+            <img src="images/illustration_4-removebg-preview.png" alt="" className={style.image} />
             <h3>Customized Learning</h3>
             <p>
               Afrolearn offers your child learning that access their interests
@@ -21,9 +21,9 @@ function AboutPage(props) {
             </p>
             </div>
           </div >
-          <div className="col">
+          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
             <div className={style.body}>
-            <img src="" alt="" />
+            <img src="images/illustration_5-removebg-preview.png" alt=""  className={style.image}/>
             <h3>Trusted Resources</h3>
             <p>
               We have partnered with leading education consultants and teachers
@@ -31,9 +31,9 @@ function AboutPage(props) {
             </p>
             </div>
           </div>
-          <div className="col">
+          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
             <div className={style.body}>
-            <img src="" alt="" />
+            <img src="images/illustration_6-removebg-preview.png" alt="" className={style.image} />
             <h3>Back to our Roots</h3>
             <p>
               Give your child a chance to learn about their culture and

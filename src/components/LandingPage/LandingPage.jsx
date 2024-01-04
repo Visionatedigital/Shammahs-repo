@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import CoursePlans from "../CoursePlans/CoursePlans";
 import Courses from "../Courses/Courses";
 import AboutPage from "../AboutPage/AboutPage";
-
+import Footer from "../Footer/Footer";
 
 function LandingPage(props) {
   return (
@@ -24,6 +24,7 @@ function LandingPage(props) {
         <CoursePlans/>
         <Courses/>
         <AboutPage/>
+        <Footer/>
       </div>
     </>
   );
