@@ -1,0 +1,15 @@
+.logo{
+    position: relative;
+    display: flex;
+    
+}
+
+.logo img{
+    top: 10px;
+    left: 30px;
+    width: 60px;
+    position: absolute;
+}
+.logo h2{
+    color: white;
+}
