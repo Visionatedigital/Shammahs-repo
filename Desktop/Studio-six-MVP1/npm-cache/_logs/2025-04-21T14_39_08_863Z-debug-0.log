@@ -1,0 +1,13 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\LUBS\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.2.0
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\LUBS\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\LUBS\Desktop\Studio-six-MVP1\.npmrc
+5 silly config load:file:C:\Users\LUBS\.npmrc
+6 silly config load:file:C:\Users\LUBS\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm exec prisma migrate dev --name add_onboarding_fields
+8 verbose argv "exec" "--" "prisma" "migrate" "dev" "--name" "add_onboarding_fields"
+9 verbose logfile logs-max:10 dir:C:\Users\LUBS\Desktop\Studio-six-MVP1\npm-cache\_logs\2025-04-21T14_39_08_863Z-
+10 verbose logfile C:\Users\LUBS\Desktop\Studio-six-MVP1\npm-cache\_logs\2025-04-21T14_39_08_863Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
